@@ -1,0 +1,46 @@
+
+
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'com.github.johnrengelman.shadow'
+
+
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral()
+        mavenLocal()
+    }
+    dependencies {
+        classpath 'com.github.jengelman.gradle.plugins:shadow:2.0.1'
+    }
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
+    mavenLocal()
+}
+
+
+jar {
+    manifest {
+        attributes "Main-Class": "io.github.jrrickard.XenonTalkHost"
+    }
+}
+
+shadowJar {
+    classifier = 'standalone'
+}
+
+build.dependsOn(shadowJar)
+
+dependencies {
+
+    compile group: 'com.vmware.xenon', name: 'xenon-common', version: '1.5.4'
+    compile group: 'com.vmware.xenon', name: 'xenon-ui', version: '1.5.4'
+
+    // Use JUnit test framework
+    testImplementation 'junit:junit:4.12'
+}
+

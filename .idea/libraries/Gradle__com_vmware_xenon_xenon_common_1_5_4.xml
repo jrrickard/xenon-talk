@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.vmware.xenon:xenon-common:1.5.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vmware.xenon/xenon-common/1.5.4/99bf90fe46c0db70e5befb69019aececf4e28925/xenon-common-1.5.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vmware.xenon/xenon-common/1.5.4/e990cf60d159613f0323ecac9028d66a85d271cb/xenon-common-1.5.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

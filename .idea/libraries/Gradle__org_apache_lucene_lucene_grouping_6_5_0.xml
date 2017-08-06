@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.lucene:lucene-grouping:6.5.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-grouping/6.5.0/10d2e5b36f460527ac9b948be0ec3077bde5b0ca/lucene-grouping-6.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-grouping/6.5.0/b1af7279d208dc65ed1fad322c46352562ea36a9/lucene-grouping-6.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
