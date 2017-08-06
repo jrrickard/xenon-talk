@@ -7,6 +7,7 @@ import com.vmware.xenon.common.UriUtils;
 import com.vmware.xenon.services.common.RootNamespaceService;
 import com.vmware.xenon.services.common.SimpleTransactionFactoryService;
 import com.vmware.xenon.ui.UiService;
+import io.github.jrrickard.services.MeetupFactoryService;
 
 import java.util.logging.Level;
 
@@ -37,6 +38,8 @@ public class XenonTalkHost extends ServiceHost {
          */
         super.startService(Operation.createPost(UriUtils.buildUri(this, RootNamespaceService.class)), new RootNamespaceService());
         super.startService(new UiService());
+
+        super.startService(new MeetupFactoryService());
 
         System.err.println(String.format("Great, let's see the UI. Go to %s",
                 "http://127.0.0.1:8000/core/ui/default/#/core/ui/default/"));
