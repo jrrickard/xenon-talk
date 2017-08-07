@@ -1,0 +1,4 @@
+java -jar build/libs/xenon-talk-standalone.jar --bindAddress=0.0.0.0 --publicUri=http://192.168.86.115:8000 --port=8000 --sandbox=/tmp/xenon/upgrade-one
+
+java -jar build/libs/xenon-talk-standalone.jar --bindAddress=0.0.0.0 --publicUri=http://192.168.86.115:8002 --port=8002 --sandbox=/tmp/xenon/upgrade-two
+

@@ -4,6 +4,7 @@ package io.github.jrrickard;
 import com.vmware.xenon.common.Operation;
 import com.vmware.xenon.common.ServiceHost;
 import com.vmware.xenon.common.UriUtils;
+import com.vmware.xenon.services.common.MigrationTaskService;
 import com.vmware.xenon.services.common.RootNamespaceService;
 import com.vmware.xenon.services.common.SimpleTransactionFactoryService;
 import com.vmware.xenon.ui.UiService;
@@ -47,6 +48,8 @@ public class XenonTalkHost extends ServiceHost {
         super.startService(new TagService());
 
         super.startFactory(DeleteMeetupsTaskService.class, DeleteMeetupsTaskService::createFactory);
+
+        super.startFactory(new MigrationTaskService());
 
         System.err.println(String.format("Great, let's see the UI. Go to %s",
                 "http://127.0.0.1:8000/core/ui/default/#/core/ui/default/"));
