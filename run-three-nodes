@@ -1,0 +1,7 @@
+
+java -jar build/libs/xenon-talk-standalone.jar --bindAddress=0.0.0.0 --publicUri=http://192.168.86.115:8000 --peerNodes=http://192.168.86.115:8000,http://192.168.86.115:8001,http://192.168.86.115:8002 --port=8000 --sandbox=/tmp/xenon/one
+
+
+java -jar build/libs/xenon-talk-standalone.jar --bindAddress=0.0.0.0 --publicUri=http://192.168.86.115:8001 --peerNodes=http://192.168.86.115:8000,http://192.168.86.115:8001,http://192.168.86.115:8002 --port=8001 --sandbox=/tmp/xenon/two
+
+java -jar build/libs/xenon-talk-standalone.jar --bindAddress=0.0.0.0 --publicUri=http://192.168.86.115:8002 --peerNodes=http://192.168.86.115:8000,http://192.168.86.115:8001,http://192.168.86.115:8002 --port=8002 --sandbox=/tmp/xenon/three
