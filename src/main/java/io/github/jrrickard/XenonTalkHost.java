@@ -9,6 +9,7 @@ import com.vmware.xenon.services.common.SimpleTransactionFactoryService;
 import com.vmware.xenon.ui.UiService;
 import io.github.jrrickard.services.MeetupFactoryService;
 import io.github.jrrickard.services.StatlessServiceExample;
+import io.github.jrrickard.services.TagService;
 
 import java.util.logging.Level;
 
@@ -42,6 +43,7 @@ public class XenonTalkHost extends ServiceHost {
 
         super.startService(new MeetupFactoryService());
         super.startService(new StatlessServiceExample());
+        super.startService(new TagService());
         System.err.println(String.format("Great, let's see the UI. Go to %s",
                 "http://127.0.0.1:8000/core/ui/default/#/core/ui/default/"));
 
