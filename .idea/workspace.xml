@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="878634ef-e6f7-476c-970d-747f2f2ecef3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xenon-talk.key" afterPath="$PROJECT_DIR$/xenon-talk.key" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/jrrickard/XenonTalkHost.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/jrrickard/XenonTalkHost.java" />
-    </list>
+    <list default="true" id="878634ef-e6f7-476c-970d-747f2f2ecef3" name="Default" comment="" />
     <ignored path="xenon-talk.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -137,8 +133,8 @@
       <file leaf-file-name="XenonTalkHost.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/github/jrrickard/XenonTalkHost.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="51" column="52" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
+            <state relative-caret-position="320">
+              <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -1176,12 +1172,12 @@
       <updated>1502049961741</updated>
       <workItem from="1502049967022" duration="18245000" />
       <workItem from="1502076444730" duration="2977000" />
-      <workItem from="1502127355157" duration="161000" />
+      <workItem from="1502127355157" duration="422000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21383000" />
+    <option name="totallyTimeSpent" value="21644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="29" y="38" width="1638" height="867" extended-state="0" />
@@ -1568,8 +1564,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/jrrickard/XenonTalkHost.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="51" column="52" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
+        <state relative-caret-position="320">
+          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
           <folding />
         </state>
       </provider>
